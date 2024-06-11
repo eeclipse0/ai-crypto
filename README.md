@@ -11,3 +11,6 @@ We used both our project 1 data and given orderbook and trade data("2024-05-01-u
 And our program generates two result files => "04-22to23-bithumb-feature.csv", "2024-05-01-upbit-feature.csv".
 The first file is feature file using project 1 orderbook data. Because we don't have any trade data in project1, this file does not include features using trade data. "2024-05-01-upbit-feature.csv" has features that calculated by using given trade data and orderbook data, so there are more features.
 Deleted some large files because they exceed 100MB and I don't want to use git lfs. Refer class repository to get "2024-05-01-upbit-BTC-*.csv"s.
+
+## Project 3 explanation
+From given files, we generated lasso model and PnL calculation.
